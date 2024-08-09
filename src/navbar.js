@@ -33,7 +33,6 @@ const Navbar = () => {
 
       if (a.length <= 0) {
         alert("Not match");
-        nav
       } else {
         setPageNavigate(a);
       }
