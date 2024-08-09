@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Shrimp foods",
+    "price": 35.0,
+    "details": "All the Lorem Ipsum generators on to Internet tend to repeat",
+    "photoName": "./menu_assets/shrimp_foods.jpg",
+    "addBtn": "ADD TO CART",
+    "quantity": 0,
+    "select": false
+  },
+  {
+    "id": 2,
+    "name": "French mayos",
+    "price": 65.0,
+    "details": "All the Lorem Ipsum generators on to Internet tend to repeat",
+    "photoName": "./menu_assets/french_mayos.jpg",
+    "addBtn": "ADD TO CART",
+    "quantity": 0,
+    "select": false
+  },
+  {
+    "id": 3,
+    "name": "Cheese pizza",
+    "price": 45.0,
+    "details": "All the Lorem Ipsum generators on to Internet tend to repeat",
+    "photoName": "./menu_assets/cheese_pizza.jpg",
+    "addBtn": "ADD TO CART",
+    "quantity": 0,
+    "select": false
+  },
+  {
+    "id": 4,
+    "name": "Russian rolls",
+    "price": 25.0,
+    "details": "All the Lorem Ipsum generators on to Internet tend to repeat",
+    "photoName": "./menu_assets/russian_rolls.jpg",
+    "addBtn": "ADD TO CART",
+    "quantity": 0,
+    "select": false
+  },
+  {
+    "id": 5,
+    "name": "Seafood burger",
+    "price": 75.0,
+    "details": "All the Lorem Ipsum generators on to Internet tend to repeat",
+    "photoName": "./menu_assets/seafood_burger.jpg",
+    "addBtn": "ADD TO CART",
+    "quantity": 0,
+    "select": false
+  },
+  {
+    "id": 6,
+    "name": "Sandwich soup",
+    "price": 55.0,
+    "details": "All the Lorem Ipsum generators on to Internet tend to repeat",
+    "photoName": "./menu_assets/sandwich_soup.jpg",
+    "addBtn": "ADD TO CART",
+    "quantity": 0,
+    "select": false
+  }
+]

@@ -1,0 +1,167 @@
+.orderAddress {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    margin-top: 7%;
+  }
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    width: 100%;
+    margin-top: 7%;
+  }
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    width: 75%;
+    margin-top: 4%;
+  }
+  @media screen and (min-width: 1025px) {
+    width: 75%;
+    margin-top: 5%;
+  }
+}
+
+.orderPageFirstLine {
+  text-align: center;
+  margin-bottom: 1%;
+  @media screen and (min-width: 320px) {
+    font-size: 3vw;
+  }
+}
+
+.DivForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    margin-bottom: 3%;
+  }
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    margin-bottom: 3%;
+  }
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    margin-bottom: 3%;
+  }
+  @media screen and (min-width: 1025px) {
+    margin-bottom: 3%;
+  }
+}
+
+.labels {
+  @media screen and (max-width: 480px) {
+    width: 100%;
+  }
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    font-size: 2.5vw;
+    width: 20%;
+  }
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    font-size: 2vw;
+    width: 20%;
+  }
+  @media screen and (min-width: 1025px) {
+    width: 20%;
+    font-size: 2vw;
+  }
+}
+.inputBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    margin-bottom: 3%;
+  }
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    margin-bottom: 3%;
+  }
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    margin-bottom: 3%;
+  }
+  @media screen and (min-width: 1025px) {
+    margin-bottom: 3%;
+  }
+}
+.inputBoxAddress {
+  border-radius: 25px;
+
+  background-color: rgb(247, 247, 111);
+  outline-style: none;
+  border: none;
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    padding: 2%;
+    font-size: 3vw;
+    width: 75%;
+  }
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    width: 70%;
+    padding: 2%;
+    font-size: 2.5vw;
+  }
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    width: 70%;
+    padding: 2%;
+    font-size: 2vw;
+  }
+  @media screen and (min-width: 1025px) {
+    width: 70%;
+    padding: 2%;
+    font-size: 2vw;
+  }
+}
+.priorityCheck {
+  @media screen and (max-width: 480px) {
+    font-size: 3.5vw;
+  }
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    font-size: 2vw;
+  }
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    font-size: 1.5vw;
+  }
+  @media screen and (min-width: 1025px) {
+    font-size: 2vw;
+  }
+}
+.orderNowBtn {
+  background-color: yellow;
+  border-radius: 25px;
+  outline-style: none;
+  border: none;
+  cursor: pointer;
+
+  @media screen and (max-width: 320px) {
+    font-size: 3vw;
+    padding: 2.5% 5%;
+    font-weight: 900;
+    margin-top: 5%;
+  }
+  @media screen and (min-width: 321px) and (max-width: 480px) {
+    font-size: 3vw;
+    padding: 2.5% 5%;
+    font-weight: 900;
+    margin-top: 5%;
+  }
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    font-size: 2vw;
+    padding: 2.5% 5%;
+    font-weight: 900;
+    margin-top: 3%;
+  }
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    font-size: 1.5vw;
+    padding: 2.5% 5%;
+    font-weight: 900;
+    margin-top: 4%;
+  }
+  @media screen and (min-width: 1025px) {
+    font-size: 1.5vw;
+    padding: 1% 4%;
+    font-weight: 900;
+    margin-top: 5%;
+  }
+}

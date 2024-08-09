@@ -1,0 +1,144 @@
+.statusPageContainer {
+  @media screen and (max-width: 480px) {
+    margin-top: 15%;
+  }
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    margin-top: 12%;
+  }
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    margin-top: 10%;
+  }
+  @media screen and (min-width: 1025px) {
+    margin-top: 7%;
+  }
+}
+
+.orderStatusPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  border: 1px solid black;
+  @media screen and (max-width: 480px) {
+    width: 90%;
+    padding: 1% 2%;
+  }
+  @media screen and (min-width: 481px) {
+    width: 75%;
+    padding: 2% 4%;
+  }
+}
+
+.expPendingTime {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.orderTimeDate {
+  display: flex;
+  justify-content: flex-end;
+}
+.orderStatus {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+.priorityBg {
+  border-radius: 25px;
+  outline-style: none;
+  border: none;
+  text-align: center;
+  background-color: red;
+  font-weight: 900;
+
+  @media screen and (max-width: 480px) {
+    font-size: 3vw;
+    padding: 4% 6%;
+  }
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    font-size: 2vw;
+    padding: 3% 4%;
+  }
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    font-size: 1.5vw;
+    padding: 2% 4%;
+  }
+  @media screen and (min-width: 1025px) {
+    font-size: 1vw;
+    padding: 2% 4%;
+  }
+}
+
+.orderStatusBg {
+  background-color: green;
+  border-radius: 25px;
+  outline-style: none;
+  border: none;
+  text-align: center;
+  font-weight: 900;
+
+  @media screen and (max-width: 480px) {
+    font-size: 3vw;
+    padding: 4% 6%;
+  }
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    font-size: 2vw;
+    padding: 3% 4%;
+  }
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    font-size: 1.5vw;
+    padding: 2% 4%;
+  }
+  @media screen and (min-width: 1025px) {
+    font-size: 1vw;
+    padding: 2% 4%;
+  }
+}
+.orderNumber {
+  font-weight: bold;
+  @media screen and (max-width: 480px) {
+    font-size: 4vw;
+  }
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    font-size: 3vw;
+  }
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    font-size: 2vw;
+  }
+  @media screen and (min-width: 1025px) {
+    font-size: 2vw;
+  }
+}
+.detailsPendingTime {
+  font-weight: 900;
+  @media screen and (max-width: 480px) {
+    font-size: 4.5vw;
+  }
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    font-size: 3.5vw;
+  }
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    font-size: 2.5vw;
+  }
+  @media screen and (min-width: 1025px) {
+    font-size: 2vw;
+  }
+}
+
+.detailsDeliveryTime {
+  @media screen and (max-width: 480px) {
+    font-size: 4vw;
+  }
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    font-size: 2vw;
+  }
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    font-size: 1.5vw;
+  }
+  @media screen and (min-width: 1025px) {
+    font-size: 1.5vw;
+  }
+}
