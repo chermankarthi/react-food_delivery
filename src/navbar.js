@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import CustomerName from "./slice/customerName";
 import { useDispatch, useSelector } from "react-redux";
 import { inputName } from "./slice/nameSlice";
 import { clearCart } from "./slice/cartItemSlice";
-import data from "./data.json";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -15,9 +14,9 @@ const Navbar = () => {
   console.log(pageNavigate, "navv");
   useEffect(() => {
     pageNavigate.filter((value) => {
-      navigate(`/orderTrackingPage/${value.userorderid}`);
+      return navigate(`/orderTrackingPage/${value.userorderid}`);
     });
-  }, [pageNavigate]);
+  }, [pageNavigate, navigate]);
   const handleTracking = (e) => {
     let item = e.target.value;
     setDatas(item);

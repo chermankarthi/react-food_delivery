@@ -4,7 +4,6 @@ import Navbar from "./navbar";
 
 import {
   handleDeleteItem,
-  handleSelectItem,
   quantityIncrement,
   handleTotalPrice,
   handleTotalQuantity,

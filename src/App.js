@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { useSelector } from "react-redux";
+import React from "react";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 //page component files
