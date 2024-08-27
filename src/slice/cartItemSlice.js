@@ -20,7 +20,7 @@ const CartItemSlice = createSlice({
   reducers: {
     handleOrderPendingTime(state, action) {
       state.userDetails.map((value) => {
-        return (value.delpendingtime = value.delpendingtime - 1);
+        value.delpendingtime = value.delpendingtime - 1;
       });
     },
     handleOrderId(state, action) {

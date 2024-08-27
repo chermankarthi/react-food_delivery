@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import Navbar from "./navbar";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -14,7 +14,7 @@ const OrderPage = () => {
   const [userPhone, setUserPhone] = useState("");
   const [userAddress, setUserAddress] = useState("");
   const [userPriority, setUserPriority] = useState(false);
-
+  const [sub, setSub] = useState(false);
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const handleUserName = (e) => {
@@ -68,8 +68,9 @@ const OrderPage = () => {
     dispatch(handleOrderId());
     navigate("/orderStatusPage");
     dispatch(clearCart());
+    console.log(sub, "sub");
   };
-
+  console.log(sub, "sub");
   return (
     <div>
       <Navbar />

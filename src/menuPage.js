@@ -1,7 +1,8 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Navbar from "./navbar";
 
+import data from "./data.json";
 import {
   addToCart,
   handleDecrementItem,

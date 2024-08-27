@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "./navbar";
 import { useDispatch, useSelector } from "react-redux";
+import cartItemSlice from "./slice/cartItemSlice";
 import { handleOrderPendingTime } from "./slice/cartItemSlice";
 const OrderStatusPage = () => {
   const { userDetails, totalPrice } = useSelector((store) => store.cartItem);

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "./navbar";
 import { useDispatch, useSelector } from "react-redux";
-import { handleOrderPendingTime } from "./slice/cartItemSlice";
+import cartItemSlice, { handleOrderPendingTime } from "./slice/cartItemSlice";
 import { useParams } from "react-router-dom";
 
 const OrderTrackingPage = () => {
@@ -31,7 +31,7 @@ const OrderTrackingPage = () => {
         <div>
           {userDetails.map(
             (value, index) =>
-              value.userorderid === parseInt(params.id) && (
+              value.userorderid == params.id && (
                 <div className="orderStatusPage">
                   <div className="orderStatus">
                     <div style={{ width: "30%" }}>
